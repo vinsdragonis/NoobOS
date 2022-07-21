@@ -10,6 +10,10 @@ This a simple and minimalistic implementation of a bootloader and a kernel to bo
 
 If you want to learn more about OS dev but couldn't find any simple source on the same, then you can use this repository as a reference. Modern operating systems are much more complicated than this implementation, so it is advisable to refer to other sources such as [OSdev Wiki](https://wiki.osdev.org/Main_Page) once you have a better understanding on OS dev
 
+## Snapshot
+
+<img src="NoobOS.png" alt="NoobOS" />
+
 ## Dependencies
 
 - QEMU
