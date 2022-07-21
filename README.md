@@ -10,7 +10,7 @@ This is a simple and minimalistic implementation of a bootloader and a kernel to
 
 If you want to learn more about OS dev but couldn't find any simple source on the same, then you can use this repository as a reference. Modern operating systems are much more complicated than this implementation, so it is advisable to refer to other sources such as [OSdev Wiki](https://wiki.osdev.org/Main_Page) once you have a better understanding on OS dev
 
-## Snapshot
+## Working Screenshot
 
 <img src="NoobOS.png" alt="NoobOS" />
 
@@ -34,7 +34,7 @@ If you want to learn more about OS dev but couldn't find any simple source on th
 - [Multiboot](https://www.gnu.org/software/grub/manual/multiboot/multiboot.html)
 - [How does assembly bootloader code work?](https://stackoverflow.com/questions/34183799/how-does-this-assembly-bootloader-code-work)
 
-## Alternate sources
+## Alternative sources
 
 - [OS tutorial by cfenollosa](https://github.com/cfenollosa/os-tutorial)
 
