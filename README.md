@@ -4,7 +4,7 @@ A simple OS template for those who wish to get started with OS dev
 
 ## What does this do?
 
-This a simple and minimalistic implementation of a bootloader and a kernel to boot the OS from the disk, load the kernel and indicate the same by printing a message on the screen.
+This is a simple and minimalistic implementation of a bootloader and a kernel to boot the OS from the disk, load the kernel and indicate the same by printing a message on the screen.
 
 ## Purpose
 
