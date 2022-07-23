@@ -1,4 +1,4 @@
-#include "print.h"
+#include "../include/print.h"
 
 char *vgaBuff = (char *)0xb8000; // VGA text buffer is located at physical address 0xb8000
 int vgaBuffPos = 0;              // Position of VGA buffer
