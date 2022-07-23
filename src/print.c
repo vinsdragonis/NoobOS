@@ -43,9 +43,9 @@ void print_msg(char* msg)
 
     while (msg[i] != '\0')
     {
+        // In case of next line, handle_next_line() is executed
         if (msg[i] == '\n')
         {
-            // In case
             handle_next_line();
             i++;
             continue;
