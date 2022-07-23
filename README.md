@@ -12,7 +12,7 @@ If you want to learn more about OS dev but couldn't find any simple source on th
 
 ## Working Screenshot
 
-<img src="NoobOS.png" alt="NoobOS" />
+<img src="screenshot/NoobOS.png" alt="NoobOS" />
 
 ## Dependencies
 
