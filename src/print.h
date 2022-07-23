@@ -2,4 +2,5 @@
 #define VGA_WIDTH 25  // screen width
 
 void clear_screen(void);
-void print_msg();
+void next_line();
+void print_msg(char* msg);

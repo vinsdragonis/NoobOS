@@ -18,6 +18,17 @@ void clear_screen(void)
     }
 }
 
+void handle_next_line(void) {
+    int screen_width = VGA_WIDTH * 2;
+
+    for (int i = vgaBuffPos; i < screen_width * 2; i++)
+    {
+        vgaBuff[i] = 0;
+    }
+    
+    vgaBuffPos += screen_width * 2;
+}
+
 void print_msg(char* msg)
 {
     /*
@@ -28,14 +39,18 @@ void print_msg(char* msg)
         For more information, please refer to https://en.wikipedia.org/wiki/VGA_text_mode
     */
 
-    clear_screen();
-
-    // const char *msg = "kernel_main() called!"; // Message to be displayed
-
     int i = 0;
 
     while (msg[i] != '\0')
     {
+        if (msg[i] == '\n')
+        {
+            // In case
+            handle_next_line();
+            i++;
+            continue;
+        }
+
         vgaBuff[vgaBuffPos] = msg[i];  // ASCII character is pushed into the buffer
         vgaBuff[vgaBuffPos + 1] = 160; // Color of the character is pushed into the buffer
 
