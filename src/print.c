@@ -52,7 +52,7 @@ void print_msg(char* msg)
         }
 
         vgaBuff[vgaBuffPos] = msg[i];  // ASCII character is pushed into the buffer
-        vgaBuff[vgaBuffPos + 1] = 160; // Color of the character is pushed into the buffer
+        vgaBuff[vgaBuffPos + 1] = 15; // Color of the character is pushed into the buffer
 
         ++i;             // Increment position in message string
         vgaBuffPos += 2; // Since we have used 2 indexes to make up a single character (ASCII character + color), we need to increment the position by 2
