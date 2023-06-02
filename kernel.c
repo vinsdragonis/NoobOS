@@ -1,4 +1,5 @@
 #include "./include/print.h"
+<<<<<<< Updated upstream
 // #include "./include/keyboard.h"
 
 void kernel_main() {
@@ -10,12 +11,19 @@ void kernel_main() {
 //         "int $0x16\n"
 //         : "=al"(key)
 //     );
+=======
+
+void kernel_main() {
+>>>>>>> Stashed changes
     // Simple usage of print_msg() to print a string to the screen
     clear_screen();
     print_msg("kernel_main() has been called!\n");
     print_msg("print_msg() has been called!\n");
+<<<<<<< Updated upstream
     // Print keyboard input to the screen
 //     if (key != 0) {
 //         kbd_handle_key_press(&kbd, key);
 //     }
+=======
+>>>>>>> Stashed changes
 }
