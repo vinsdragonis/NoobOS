@@ -31,7 +31,7 @@ See **dependencies** for more info on required libraries and software installed
 - QEMU
 - gcc
 - NASM
-- WLS (Windows machines only)
+- WSL (Windows machines only)
 
 ## Pre-requisites
 
