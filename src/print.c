@@ -19,14 +19,11 @@ void clear_screen(void)
 }
 
 void handle_next_line(void) {
-    int screen_width = VGA_WIDTH * 2;
-
-    for (int i = vgaBuffPos; i < screen_width * 2; i++)
+    for (int i = (int)(vgaBuffPos / 160) + (vgaBuffPos % 160); i < 80 + (vgaBuffPos % 160); i++)
     {
         vgaBuff[i] = 0;
+        vgaBuffPos += 2;
     }
-    
-    vgaBuffPos += screen_width * 2;
 }
 
 void print_msg(char* msg)
